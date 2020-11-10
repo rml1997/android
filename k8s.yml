@@ -8,8 +8,8 @@ spec:
   containers:
   - name: android
     image: budtmo/docker-android-x86-11.0
-    securityContext:
-      privileged: true  
+    #securityContext:
+      #privileged: true  
     ports:
     - containerPort: 6080
     - containerPort: 5554
